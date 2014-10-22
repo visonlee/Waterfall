@@ -80,7 +80,7 @@
 }
 
 
-
+#pragma mark - collectionView的数据源和代理方法
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
     return _dataSource.count;
@@ -97,7 +97,11 @@
     NSString *imageName = [NSString stringWithFormat:@"%d.%@",indexPath.row,data.imgType];
      NSString *path = [[NSBundle mainBundle] pathForResource:imageName ofType:nil];
     NSData *imgData = [NSData dataWithContentsOfFile:path];
-    cell.imageView.image = [UIImage animatedImageWithAnimatedGIFData:imgData];
+    cell.imageView.image = [UIImage animatedImageWithAnimatedGIFData:imgData];  //uiimage的分类，实现动态图片的展示
+    
+    //从网络加载图片，但我已做了本地缓存，故用上面的方法实现
+    //cell.imageView.image = [ UIImage animatedImageWithAnimatedGIFURL:[NSURL URLWithString:data.imgRUL]];
+    
     cell.descLabel.text = data.desc;
     
     return cell;

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C62727F6-30AA-4B09-84D2-E19F97BA18A2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>瀑布流</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7C0D136E-2C70-4282-8A0E-177B7BE47A70</key>
+		<string>https://github.com/Vison2014/Waterfall.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>瀑布流/瀑布流.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7C0D136E-2C70-4282-8A0E-177B7BE47A70</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Vison2014/Waterfall.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7C0D136E-2C70-4282-8A0E-177B7BE47A70</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7C0D136E-2C70-4282-8A0E-177B7BE47A70</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Waterfall</string>
+		</dict>
+	</array>
+</dict>
+</plist>

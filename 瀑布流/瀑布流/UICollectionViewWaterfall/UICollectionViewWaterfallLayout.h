@@ -7,7 +7,6 @@
 
 /*
    说明：该类来自Github，本人直接拿来使用   
- 
  */
 
 #import <UIKit/UIKit.h>
